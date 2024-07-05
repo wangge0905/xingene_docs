@@ -94,11 +94,11 @@ title: 泛癌症cfRNA早期筛查检测报告
 
 | **癌症类型** | **实测值**    | **正常人参考区间**<sup>（注）</sup> | **<font style="color:green">阴性</font>** |
 |----------|-------------|----------|----------|
-| **肺部** | **0.107**   |    0 - 0.139    | <img src="/reports/img/score-m.webp" style="zoom:30%;" /> |
-| **结直肠** | **0.244**   |    0 - 0.319   | <img src="/reports/img/score-m.webp" style="zoom:30%;" /> |
-| **胃** | **0.172**   |    0 - 0.224   | <img src="/reports/img/score-m.webp" style="zoom:30%;" /> |
-| **肝脏** | **0.020**   |    0 - 0.026    | <img src="/reports/img/score-m.webp" style="zoom:30%;" /> |
-| **食管** | **0.115**   |    0 - 0.151    | <img src="/reports/img/score-m.webp" style="zoom:30%;" /> |
+| **肺部** | **0.032**   |    0 - 0.114    | <img src="/reports/img/score-low.webp" style="zoom:30%;" /> |
+| **结直肠** | **0.100**   |    0 - 0.349   | <img src="/reports/img/score-low.webp" style="zoom:30%;" /> |
+| **胃** | **0.019**   |    0 - 0.065   | <img src="/reports/img/score-low.webp" style="zoom:30%;" /> |
+| **肝脏** | **0.060**   |    0 - 0.209    | <img src="/reports/img/score-low.webp" style="zoom:30%;" /> |
+| **食管** | **0.035**   |    0 - 0.123    | <img src="/reports/img/score-low.webp" style="zoom:30%;" /> |
 
 <sup>注</sup> 正常人参考区间的特异性指标为95%。
 
@@ -118,35 +118,45 @@ title: 泛癌症cfRNA早期筛查检测报告
 
 | Gene             | RNA_expression_log10(CPM) | Gene        | RNA_expression_log10(CPM) | Gene          | RNA_expression_log10(CPM) | Gene       | RNA_expression_log10(CPM) | Gene       | RNA_expression_log10(CPM) |
 | ---------------- | ------------------------- | ----------- | ------------------------- | ------------- | ------------------------- | ---------- | ------------------------- | ---------- | ------------------------- |
-| hsa_circ_0131162 | 0.183                     | LINC00538   | 0                         | AC010343.3    | 0                         | AC091729.1 | 0                         | CDCA4P1    | 0                         |
-| hsa_circ_0131165 | 0.183                     | PROX1       | 0                         | LINC02120     | 0                         | AC091729.2 | 0                         | ZDHHC21    | 1.098                     |
-| hsa_circ_0131189 | 0.183                     | AC011700.1  | 0                         | AC034223.1    | 0                         | GPER1      | 0                         | CER1       | 0                         |
-| hsa_circ_0131219 | 0.183                     | AL606537.1  | 0                         | AC034223.2    | 0                         | ZFAND2A    | 1.274                     | FREM1      | 0                         |
-| hsa_circ_0131264 | 1.298                     | AL592287.1  | 0                         | AC010343.2    | 0                         | AC091729.3 | 0.311                     | AL512643.1 | 0                         |
-| hsa_circ_0131266 | 0.491                     | SMYD2       | 1.25                      | AC010343.1    | 0                         | UNCX       | 0                         | RNU6-1260P | 0                         |
-| hsa_circ_0131308 | 0.311                     | AL929236.1  | 0                         | LINC02160     | 0                         | AC073094.1 | 0                         | LDHAP4     | 0                         |
-| hsa_circ_0131357 | 0.41                      | PTPN14      | 0                         | AC034231.1    | 0                         | MICALL2    | 0.491                     | CLCN3P1    | 0.311                     |
-| hsa_circ_0131361 | 0.183                     | AL445305.1  | 0                         | TARS          | 1.223                     | AC102953.1 | 0.311                     | AL592293.1 | 0                         |
-| hsa_circ_0131387 | 0.183                     | KRT18P12    | 0                         | AC034232.1    | 0                         | AC102953.2 | 0                         | AL592293.2 | 0                         |
-| hsa_circ_0131398 | 0.183                     | CENPF       | 0.311                     | AC034232.2    | 0                         | INTS1      | 1.274                     | RNU6-559P  | 0                         |
-| hsa_circ_0131401 | 0.183                     | ABHD17AP3   | 0                         | ADAMTS12      | 0                         | AC093734.1 | 0                         | TTC39B     | 1.783                     |
-| hsa_circ_0131429 | 0.617                     | UBE2V1P13   | 0                         | RNU6-923P     | 0                         | MAFK       | 0.491                     | RPL7P33    | 0                         |
-| hsa_circ_0131431 | 0.41                      | GAPDHP24    | 0                         | RXFP3         | 0                         | TMEM184A   | 0                         | SNAPC3     | 1.576                     |
-| hsa_circ_0131433 | 0.183                     | AC099563.1  | 0                         | SLC45A2       | 0                         | PSMG3      | 0                         | RNU6-319P  | 0                         |
-| hsa_circ_0131446 | 0.41                      | KCNK2       | 0                         | AC139783.2    | 0                         | PSMG3-AS1  | 0.491                     | PSIP1      | 2.208                     |
-| hsa_circ_0131448 | 0.559                     | VDAC1P10    | 0                         | AMACR         | 0                         | TFAMP1     | 0                         | AL513423.1 | 0                         |
-| hsa_circ_0131451 | 0.311                     | AL450990.1  | 0                         | C1QTNF3-AMACR | 0.491                     | AC074389.2 | 0                         | RN7SL98P   | 0                         |
-| hsa_circ_0131455 | 0.183                     | KCTD3       | 0.491                     | AC139783.1    | 0                         | ELFN1      | 0                         | FTH1P12    | 0.311                     |
-| hsa_circ_0131481 | 0.183                     | USH2A       | 0                         | C1QTNF3       | 0.491                     | AC074389.3 | 0                         | RNU6-246P  | 0                         |
-| hsa_circ_0131505 | 0.183                     | SNORD116    | 0                         | AC139792.2    | 0                         | AC074389.1 | 0                         | CCDC171    | 1.482                     |
-| hsa_circ_0131556 | 0.183                     | AL358452.1  | 0                         | AC139792.3    | 0                         | ELFN1-AS1  | 0                         | HMGN2P16   | 0                         |
-| hsa_circ_0131597 | 0.183                     | AC093581.1  | 0                         | AC139792.1    | 0                         | MAD1L1     | 0.972                     | RNU6-14P   | 0                         |
-| hsa_circ_0131609 | 0.183                     | AC138024.1  | 0                         | AC138409.2    | 0.921                     | AC104129.1 | 0                         | C9orf92    | 0                         |
-| hsa_circ_0131635 | 0.311                     | MRPS18BP1   | 0                         | AC138409.1    | 0                         | MRM2       | 0                         | BNC2       | 0                         |
-| hsa_circ_0131636 | 0.311                     | ESRRG       | 0                         | AC138853.1    | 0                         | NUDT1      | 0.491                     | AL449983.1 | 0                         |
-| hsa_circ_0131638 | 0.183                     | GPATCH2     | 0.715                     | AC025754.2    | 0                         | SNX8       | 0.795                     | AL450003.1 | 0                         |
-| hsa_circ_0131643 | 0.311                     | SPATA17     | 0                         | RAI14         | 0                         | IMMP1LP3   | 0                         | AL450003.2 | 0                         |
-| hsa_circ_0131652 | 0.311                     | SPATA17-AS1 | 0                         | AC025754.1    | 0                         | EIF3B      | 1.32                      | LSM1P1     | 0                         |
+| PTPRC            | 3.345                     | NCF2        | 2.212                     | RALGPS2       | 2.135                     | FAM122A    | 2.106                     | TRAF5      | 1.818                     |
+| RABGAP1L         | 3.002                     | ZC3H11A     | 2.183                     | TRAF3IP3      | 2.125                     | TRAF2      | 2.106                     | RAB5C      | 1.805                     |
+| PRRC2C           | 2.694                     | ZBED6       | 2.182                     | SEL1L        | 2.105                     | STX6       | 2.104                     | UCHL1      | 1.754                     |
+| EPRS             | 2.689                     | ARPC5       | 2.181                     | RNASEL       | 2.104                     | KIF21B     | 2.103                     | DHX9       | 1.748                     |
+| RGS18            | 2.632                     | SUCO        | 2.181                     | RCHY1        | 2.103                     | ANGEL2     | 2.103                     | LCK        | 1.735                     |
+| NUCKS1           | 2.589                     | ADIPOR1     | 2.176                     | RGS2         | 2.103                     | FAM120B    | 2.103                     | RASGRF1    | 1.721                     |
+| TPR              | 2.563                     | PRRC2C      | 2.173                     | RASA1        | 2.103                     | TMEM206    | 2.103                     | RAB1A      | 1.718                     |
+| TNC              | 2.553                     | RGS2        | 2.172                     | ZC3H11A      | 2.103                     | EIF2D      | 2.103                     | RAB1B      | 1.715                     |
+| NCF2             | 2.481                     | RASA1       | 2.171                     | RNASEL       | 2.103                     | FAM120A    | 2.103                     | SRSF2      | 1.712                     |
+| ZC3H11A          | 2.481                     | RCHY1       | 2.170                     | RALGPS2      | 2.103                     | RPS6KC1    | 2.103                     | LARP4B     | 1.711                     |
+| ZBED6            | 2.464                     | EPRS        | 2.169                     | TRAF5        | 2.103                     | STX6       | 2.103                     | SMYD2      | 1.704                     |
+| ARPC5            | 2.441                     | SUCO        | 2.168                     | TRAF2        | 2.103                     | NCK2       | 2.103                     | AAMP       | 1.701                     |
+| SUCO             | 2.431                     | DHX9        | 2.167                     | EIF2D        | 2.103                     | KIF21B     | 2.103                     | LYN        | 1.693                     |
+| ADIPOR1          | 2.398                     | NUCKS1      | 2.166                     | ZBED6        | 2.103                     | FAM120B    | 2.103                     | RAB12      | 1.691                     |
+| RCHY1            | 2.309                     | STX6        | 2.165                     | ANGEL2       | 2.103                     | EIF2D      | 2.103                     | RAB7A      | 1.687                     |
+| CREG1            | 2.305                     | UCHL1       | 2.162                     | FAM120B      | 2.103                     | FAM120A    | 2.103                     | RPS6KC1    | 1.683                     |
+| RASSF5          | 2.217                     | KIF21B      | 2.161                     | EIF2D        | 2.103                     | STX6       | 2.103                     | RAB1A      | 1.681                     |
+| GLUL             | 2.197                     | ANGEL2      | 2.160                     | ZBED6        | 2.103                     | LARP4B     | 2.103                     | SRSF2      | 1.674                     |
+| CEP350           | 2.186                     | FAM122A     | 2.159                     | RNASEL       | 2.103                     | EIF2D      | 2.103                     | SMYD2      | 1.673                     |
+| CD34             | 2.176                     | FAM20B      | 2.158                     | RALGPS2      | 2.103                     | STX6       | 2.103                     | AAMP       | 1.671                     |
+| RCHY1            | 2.165                     | SFT2D2      | 2.157                     | TRAF5        | 2.103                     | NCK2       | 2.103                     | LYN        | 1.668                     |
+| EDEM3            | 2.165                     | CD55        | 2.156                     | TRAF2        | 2.103                     | KIF21B     | 2.103                     | RAB12      | 1.665                     |
+| TRAF3IP3         | 2.142                     | ACBD5       | 2.155                     | EIF2D        | 2.103                     | FAM120B    | 2.103                     | RAB7A      | 1.664                     |
+| SEL1L            | 2.142                     | SNRPE       | 2.154                     | ZBED6        | 2.103                     | EIF2D      | 2.103                     | RPS6KC1    | 1.662                     |
+| RNASEL           | 2.135                     | BAT3        | 2.153                     | ANGEL2       | 2.103                     | STX6       | 2.103                     | RAB1A      | 1.661                     |
+| RALGPS2          | 2.135                     | DNM3        | 2.152                     | FAM120B      | 2.103                     | LARP4B     | 2.103                     | SRSF2      | 1.657                     |
+| DHX9             | 2.125                     | CACYP        | 2.151                     | EIF2D        | 2.103                     | EIF2D      | 2.103                     | SMYD2      | 1.656                     |
+| STX6             | 2.125                     | CR1         | 2.150                     | ZBED6        | 2.103                     | STX6       | 2.103                     | AAMP       | 1.655                     |
+| UCHL1            | 2.105                     | PRDX6       | 2.149                     | ANGEL2       | 2.103                     | NCK2       | 2.103                     | LYN        | 1.654                     |
+| KIF21B           | 2.104                     | TROVE2      | 2.148                     | FAM120B      | 2.103                     | KIF21B     | 2.103                     | RAB12      | 1.652                     |
+| ANGEL2           | 2.103                     | CDC73       | 2.147                     | EIF2D        | 2.103                     | FAM120B    | 2.103                     | RAB7A      | 1.651                     |
+| FAM122A          | 2.106                     | INV31ABP    | 2.146                     | ZBED6        | 2.103                     | EIF2D      | 2.103                     | RPS6KC1    | 1.649                     |
+| FAM20B           | 2.103                     | MPC2        | 2.145                     | ANGEL2       | 2.103                     | STX6       | 2.103                     | RAB1A      | 1.648                     |
+| SFT2D2           | 2.103                     | GORAB       | 2.144                     | FAM120B      | 2.103                     | LARP4B     | 2.103                     | TMEM183A   | 1.437                     |
+| TMEM183A         | 1.437                     | hsa_circ_0000010 | 2.267                | hsa_circ_0000046 | 2.207                | hsa_circ_0000520 | 2.186                | hsa_circ_0000719 | 1.464                 |
+| hsa_circ_0000010 | 2.267                     | hsa_circ_0000047 | 1.937                | hsa_circ_0000658 | 2.176                | hsa_circ_0000794 | 1.401                | hsa_circ_0000796 | 1.332                 |
+| hsa_circ_0000046 | 2.207                     | hsa_circ_0000047 | 1.837                | hsa_circ_0000658 | 2.176                | hsa_circ_0000794 | 1.401                | hsa_circ_0000796 | 1.332                 |
+| hsa_circ_0000520 | 2.186                     | hsa_circ_0000047 | 1.837                | hsa_circ_0000658 | 2.176                | hsa_circ_0000794 | 1.401                | hsa_circ_0000796 | 1.332                 |
+| hsa_circ_0000719 | 1.464                     | hsa_circ_0000719 | 1.464                | hsa_circ_0000719 | 1.464                | hsa_circ_0000719 | 1.464                | hsa_circ_0000719 | 1.464                 |
 
 您所有基因的【全转录组基因测定数值全表】可以从 [附录：全部文件下载链接](#files) 中获取。
 
